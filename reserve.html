@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+
+    <title>Reservations Page</title>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+    <script src="https://code.jquery.com/jquery.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+
+    <link rel="stylesheet" href="reserve.css">
+
+</head>
+
+<body>
+
+    <div class="container">
+
+        <div class="jumbotron">
+
+            <h1 class="text-center">
+                <img src="raspberry.png" style="width: 70px; height: 70px;"></img>
+                Raspberry Pi Dessert Lounge
+
+            </h1>
+
+            <hr>
+
+            <h2 class="text-center">Make a Reservation</h2>
+
+            <a href="/tables">
+
+                <button type="button" class="btn btn-danger btn-lg">
+                    <span class="glyphicon glyphicon-list"></span> View Tables</button>
+
+            </a>
+
+            <a href="/">
+
+                <button type="button" class="btn btn-primary btn-lg">
+                    <span class="glyphicon glyphicon-home"></span>
+                </button>
+
+            </a>
+
+        </div>
+
+        <div class="panel panel-default">
+
+            <div class="panel-heading">
+
+                <h4>Table Reservations</h4>
+
+            </div>
+
+            <div class="panel-body">
+
+                <form>
+                    <div class="form-group">
+
+                        <label class="col-form-label" for="nameInput">Name</label>
+                        <input type="text" class="form-control" id="nameInput">
+
+                    </div>
+
+                    <div class="form-group">
+
+                        <label class="col-form-label" for="numberInput">Phone Number</label>
+                        <input type="text" class="form-control" id="numberInput">
+
+                    </div>
+
+                    <div class="form-group">
+
+                        <label class="col-form-label" for="emailInput">Email</label>
+                        <input type="text" class="form-control" id="emailInput">
+
+                    </div>
+
+                    <div class="form-group">
+
+                        <label class="col-form-label" for="idInput">Unique ID</label>
+                        <input type="text" class="form-control" id="idInput">
+
+                    </div>
+
+                    <button type="button" class="btn btn-primary">Submit</button>
+
+                </form>
+
+            </div>
+
+        </div>
+
+
+
+</body>
+
+</html>
